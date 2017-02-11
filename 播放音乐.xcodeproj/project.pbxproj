@@ -15,6 +15,8 @@
 		BD0B5C0C1DB870C2007F0F26 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BD0B5C0A1DB870C2007F0F26 /* LaunchScreen.storyboard */; };
 		BD0B5C171DB870C2007F0F26 /* ____Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = BD0B5C161DB870C2007F0F26 /* ____Tests.m */; };
 		BD0B5C221DB870C2007F0F26 /* ____UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = BD0B5C211DB870C2007F0F26 /* ____UITests.m */; };
+		BD0B5C301DB87259007F0F26 /* bugai.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BD0B5C2F1DB87259007F0F26 /* bugai.mp3 */; };
+		BD0B5C331DB87445007F0F26 /* AudioPlayerTool.m in Sources */ = {isa = PBXBuildFile; fileRef = BD0B5C321DB87445007F0F26 /* AudioPlayerTool.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,9 @@
 		BD0B5C1D1DB870C2007F0F26 /* 播放音乐UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "播放音乐UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BD0B5C211DB870C2007F0F26 /* ____UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "____UITests.m"; sourceTree = "<group>"; };
 		BD0B5C231DB870C2007F0F26 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BD0B5C2F1DB87259007F0F26 /* bugai.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = bugai.mp3; sourceTree = "<group>"; };
+		BD0B5C311DB87445007F0F26 /* AudioPlayerTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AudioPlayerTool.h; sourceTree = "<group>"; };
+		BD0B5C321DB87445007F0F26 /* AudioPlayerTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AudioPlayerTool.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +106,7 @@
 		BD0B5BFB1DB870C2007F0F26 /* 播放音乐 */ = {
 			isa = PBXGroup;
 			children = (
+				BD0B5C2F1DB87259007F0F26 /* bugai.mp3 */,
 				BD0B5BFF1DB870C2007F0F26 /* AppDelegate.h */,
 				BD0B5C001DB870C2007F0F26 /* AppDelegate.m */,
 				BD0B5C021DB870C2007F0F26 /* ViewController.h */,
@@ -110,6 +116,8 @@
 				BD0B5C0A1DB870C2007F0F26 /* LaunchScreen.storyboard */,
 				BD0B5C0D1DB870C2007F0F26 /* Info.plist */,
 				BD0B5BFC1DB870C2007F0F26 /* Supporting Files */,
+				BD0B5C311DB87445007F0F26 /* AudioPlayerTool.h */,
+				BD0B5C321DB87445007F0F26 /* AudioPlayerTool.m */,
 			);
 			path = "播放音乐";
 			sourceTree = "<group>";
@@ -249,6 +257,7 @@
 				BD0B5C0C1DB870C2007F0F26 /* LaunchScreen.storyboard in Resources */,
 				BD0B5C091DB870C2007F0F26 /* Assets.xcassets in Resources */,
 				BD0B5C071DB870C2007F0F26 /* Main.storyboard in Resources */,
+				BD0B5C301DB87259007F0F26 /* bugai.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -274,6 +283,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BD0B5C041DB870C2007F0F26 /* ViewController.m in Sources */,
+				BD0B5C331DB87445007F0F26 /* AudioPlayerTool.m in Sources */,
 				BD0B5C011DB870C2007F0F26 /* AppDelegate.m in Sources */,
 				BD0B5BFE1DB870C2007F0F26 /* main.m in Sources */,
 			);
